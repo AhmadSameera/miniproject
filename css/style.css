@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  padding: 0;
+  cursor: pointer; }
+
+body {
+  position: absolute; }
+
+@keyframes bkchange {
+  from {
+    background-color: lightgray; }
+  to {
+    background-color: lightpink; } }
+  @media only screen and (max-width: 320px) {
+    body {
+      width: 100px;
+      float: none; } }
+  @media screen and (min-width: 1500px) {
+    body {
+      float: right; } }
+
+div {
+  animation-name: bkchange;
+  animation-duration: 2s; }
+
+/* list styling */
+#navbar ul {
+  display: flex;
+  font-family: cursive; }
+
+#navbar::before {
+  background-color: black;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.3; }
+
+#navbar ul li {
+  list-style: none;
+  font-size: 5rem; }
+
+#navbar ul li a {
+  color: #0e0c0c;
+  padding: 14px;
+  display: block;
+  border-radius: 32px;
+  text-decoration: none; }
+
+#navbar ul li a:hover {
+  color: black;
+  background-color: #9ff83a;
+  box-shadow: 6px 6px 20px 14px #8ce605; }
+
+/* header*/
+.container {
+  padding: 50px;
+  margin: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../images/fuji.jpg);
+  text-align: center;
+  height: 100vh;
+  width: 100vmax; }
+  .container img {
+    float: left;
+    border: 4px solid black;
+    border-radius: 50%;
+    box-shadow: 10px 20px 20px 10px white; }
+
+.heading {
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  font-weight: bold;
+  font-size: 300px;
+  text-shadow: 2px 2px 16px 20px black;
+  color: #1b1b66; }
+
+.heading:hover {
+  text-transform: 2s;
+  color: #160769;
+  display: flex;
+  font-size: 320px; }
+
+.btn-ss {
+  padding: 10px 16px;
+  height: auto;
+  width: 700px;
+  font-size: 80px;
+  color: black;
+  font-family: bold;
+  border-color: white;
+  transition: width 2s height 2s; }
+
+.btn-ss:hover {
+  width: 800px;
+  height: auto;
+  background-color: #071a6e;
+  color: white;
+  box-shadow: 6px 6px 20px 14px #092bc4; }
+
+body {
+  background-color: #d6c6c6; }
+
+.division {
+  margin: 40px;
+  padding: 2% 5%;
+  background-image: url(../images/sea.jpg);
+  background-size: cover; }
+  .division .heading1 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 200px;
+    color: #74146c;
+    border: 2px dashed black;
+    border-radius: 50px;
+    text-shadow: 8px 8px darkblue; }
+  .division .heading1:hover {
+    text-transform: 2s;
+    display: flex;
+    font-size: 210px;
+    text-shadow: 6px 8px #9b4868; }
+  .division p {
+    display: flex;
+    position: relative;
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #c96f99;
+    text-shadow: 6px 10px #2c3518; }
+  .division div img {
+    float: right;
+    position: static;
+    border-radius: none;
+    z-index: 1;
+    transition: 2s;
+    box-shadow: 6px 6px 20px 14px #964c0f; }
+  .division img:hover {
+    width: 1000px;
+    height: 1000px;
+    filter: contrast(90%); }
+  .division a {
+    font-size: 100px;
+    font-weight: bold;
+    color: blue; }
+
+/* main */
+h1 {
+  display: flex;
+  position: relative;
+  font-family: cursive;
+  justify-content: space-evenly;
+  font-weight: bold;
+  font-size: 200px;
+  color: #91270d;
+  border: 2px dashed #080707;
+  border-radius: 50px;
+  text-shadow: 8px 8px darkblue; }
+
+h1:hover {
+  text-transform: 2s;
+  color: #ce11b5;
+  display: flex;
+  font-size: 250px; }
+
+.bk {
+  background-image: url(../images/blueleaves.jpg);
+  background-size: cover; }
+
+.section {
+  display: flex;
+  padding: 40px;
+  margin: 20px;
+  top: 0;
+  position: relative;
+  font-size: 40px;
+  align-items: center; }
+
+  .division2 {
+  display: flex;
+  background-image: url(../images/butterfly.jpg);
+  background-size: cover;
+  border: 2px solid #cc3a0e;
+  border-radius: 26px;
+  padding: 60px;
+  margin: 100px;
+  align-items: center;
+  justify-content: space-between;
+  display: block;
+  position: relative;
+  width: 650px;
+  height: 950px;
+  box-shadow: 6px 6px 15px 5px black;
+  z-index: 1; }
+
+.division-content{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+.face-front,
+.face-back{
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+
+.division2 .face-front {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 650px;
+  height: 950px;
+  transform-style: preserve-3d;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.5s;
+  background: #1c6894;
+  backface-visibility: hidden;
+  transform:  rotateY(0deg); }
+  .division2 .face-front ul li {
+    color: #1fb3a6;
+    text-shadow: 4px 5px black;
+    font-style: bold;
+    font-size: 40px; }
+  .division2 .face-front .head-line {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    font-style: bold; }
+
+.division2:hover .face-front {
+  transform:rotateY(180deg); }
+
+.division2 .face-back {
+  background-color: rgb(111, 201, 201);
+  color: white;
+  transform: rotateY(180deg);
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  margin-top: 30px;
+  /* display: flex; */
+  position: absolute;
+  width: 650px;
+  height: 950px;
+  /* display: block; */
+  border-radius: 28px;
+  backface-visibility: hidden; }
+  .division2 .face-back .head {
+    color: black;
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+  .division2 .face-back .btn-sm {
+    height: 150px;
+    width: 250px;
+    font-size: 60px; }
+  .division2 .face-back .btn-sn {
+    height: 150px;
+    width: 250px;
+    font-size: 60px;  }
+  .division2 .face-back .btn-sp {
+    height: 150px;
+    width: 250px;
+    font-size: 60px;  }
+
+.division2:hover .face.back {
+  transform: rotateY(180deg); }
+
+#contact {
+  background-image: url(../images/contact.jpg);
+  background-size: cover;
+  position: relative;
+  top: 10px;
+  padding: 60px;
+  margin: 50px; }
+
+#contact::before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px; }
+
+#contact-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 44px;
+  margin-left: 30px; }
+
+#contact-box form {
+  width: 40%; }
+
+#contact-box label {
+  font-size: 5rem;
+  color: white;
+  font-family: 'Bree Serif',serif; }
+
+#contact-box input,
+#contact-box textarea {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 9px;
+  font-size: 5rem;
+  box-shadow: 4px 4px 20px  black; }
+
+#contact-box .btn-sg {
+  padding: 10px 16px;
+  height: auto;
+  width: 700px;
+  font-size: 80px;
+  color: black;
+  font-family: bold;
+  border-color: white;
+  transition: width 2s height 2s; }

@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding:0;
+    cursor: pointer;
+}
+$media-small:320px;
+$media-big:1500px;
+body{
+     position: absolute;
+@keyframes bkchange{
+    from {background-color:lightgray ;}
+    to {background-color: lightpink;}
+}
+    @media only screen and(max-width:$media-small)
+    {
+        width:100px;
+        float:none;
+    }
+    @media screen and(min-width:$media-big)
+    {
+        float:right;
+    }
+
+}
+
+div{
+    animation-name: bkchange;
+    animation-duration: 2s;
+}
+
+
+/* list styling */
+#navbar ul{
+    display: flex;
+    font-family:cursive;
+
+}
+#navbar::before{
+background-color: black;
+position: absolute;
+height: 100%;
+width: 100%;
+z-index: -1;
+opacity: 0.3;
+}
+#navbar ul li{
+
+    list-style: none;
+    font-size: 5rem;
+    
+}
+#navbar ul li a{
+color: rgb(14, 12, 12);
+    padding: 14px;
+    display: block;
+    border-radius: 32px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: rgb(159, 248, 58);
+    box-shadow: 6px 6px 20px 14px rgb(140, 230, 5);
+    
+}
+/* header*/
+
+.container{
+    padding:50px;
+    margin:50px;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-image:url(../images/fuji.jpg);
+    text-align: center;
+    height:100vh;
+    width:100vmax;
+ img{
+    float:left;
+    border:4px solid black;
+    border-radius:50% ;
+    box-shadow:10px 20px 20px 10px white ;
+    
+}
+}
+
+
+
+.heading{
+    display: flex;
+    position:relative;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size:300px;
+    text-shadow: 2px 2px 16px 20px black;
+    color:rgb(27, 27, 102);
+
+    
+
+}
+.heading:hover{
+    text-transform:2s ;
+    color:rgb(22, 7, 105);
+    display:flex;
+    font-size:320px ;
+}
+
+.btn-ss{
+    padding:10px 16px;
+    height: auto;
+    width:700px;
+    font-size :80px;
+    color:black;
+    // border-radius:20%;
+    font-family:bold;
+     border-color:white;
+
+    transition:width 2s height 2s;
+}
+
+.btn-ss:hover{
+    width:800px;
+    height:auto;
+    background-color:rgb(7, 26, 110);
+    color:white;
+    box-shadow: 6px 6px 20px 14px rgb(9, 43, 196);
+}
+$primary-bg-color:rgb(214, 198, 198);
+body{
+    background-color:$primary-bg-color ;
+}
+.division{
+    margin:40px;
+    padding: 2% 5%;
+    background-image: url(../images/sea.jpg);
+    background-size: cover;
+    .heading1{
+        display:flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        font-family:cursive;
+        font-weight: bold;
+        font-size:200px;
+        color:rgb(116, 20, 108);
+        border:2px dashed black;
+        border-radius: 50px;
+        text-shadow:8px 8px darkblue;
+
+    }
+    .heading1:hover{
+        text-transform:2s ;
+        display:flex;
+        font-size:210px ;
+        text-shadow:6px 8px rgb(155, 72, 104) ;
+
+    
+
+    }
+    p{
+        display:flex;
+        position:relative;
+        font-size: 100px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color:rgb(201, 111, 153);
+        text-shadow:6px 10px rgb(44, 53, 24) ;
+    }
+
+    div{
+    img{
+        float:right;
+        position:static;
+        border-radius: none;
+        z-index:1;
+        transition: 2s;
+        box-shadow: 6px 6px 20px 14px rgb(150, 76, 15);
+
+    }
+}
+    img:hover{
+        width:1000px;
+        height:1000px;
+        filter: contrast(90%)
+     }
+     a{
+         font-size: 100px;
+         font-weight: bold;
+         color:blue;
+     }
+}
+/* main */
+   h1{
+    display:flex;
+    position: relative;
+    font-family: cursive;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size:200px;
+    color:rgb(145, 39, 13);
+    border: 2px dashed rgb(8, 7, 7);
+    border-radius: 50px;
+    text-shadow:8px 8px darkblue;
+
+
+}
+h1:hover{
+    text-transform:2s ;
+    color:rgb(206, 17, 181);
+    display:flex;
+    font-size:250px ;
+
+}
+.bk{
+    background-image: url(../images/blueleaves.jpg);
+    background-size:cover;
+
+}
+.section{
+    display:flex;
+    padding: 40px;
+    margin:20px;
+        top: 0;
+        
+        position: relative;
+    font-size:40px ;
+    align-items: center;
+    
+
+
+    
+}
+.division2{
+    display: flex;
+background-image:url(../images/butterfly.jpg);
+background-size:cover;
+    border: 2px solid rgb(204, 58, 14);
+    border-radius: 26px;
+    padding: 60px;
+    margin: 100px;
+    align-items:center;
+    justify-content: space-between;
+     display: block;
+    position: relative;
+    width: 650px;
+    height: 950px;
+    box-shadow: 6px 6px 15px 5px black;
+    z-index:1;
+
+
+}
+.division2 .face-front{
+     position: relative;
+     top: 0;
+     left: 0;
+    //  width: 500px;
+    //  height: 500px;
+     transform-style: preserve-3d;
+    //  display: flex; 
+     justify-content: center;
+     align-items: center;
+     transition: 2s ease-in-out;
+     background: rgb(28, 104, 148);
+     backface-visibility: hidden;
+     transform: perspective(500px) rotateY(0deg);
+    
+    
+     ul li{
+        color:rgb(31, 179, 166);
+        text-shadow:4px 5px black ;
+        font-style:bold;
+        font-size:40px ;
+    }
+    .head-line{
+        color:black;
+        text-align: center;
+        font-size:50px ;
+        font-style: bold;
+
+  }
+
+
+}
+ .division2:hover .face-front{
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.division2 .face-back{
+   background-color: cyan;
+   color: white;
+   transform: perspective(500px) rotateY(180deg);
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   position: absolute;
+   width: 184px;
+   display: block;
+   border-radius: 28px;
+    backface-visibility: hidden;
+   .head{
+       color:black;
+       font-size:40px;
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   }
+   .btn-sm{
+       height:30px;
+       width:100px;
+   }
+   .btn-sn{
+       height:30px;
+       width:100px;
+   }
+
+   .btn-sp{
+       height:30px;
+       width:100px;
+   }
+}
+
+
+.division2:hover .face.back{
+    transform: perspective(500px) rotateY(-180deg);
+}
+
+#contact{
+    background-image: url(../images/contact.jpg);
+    background-size: cover;
+    position: relative;
+    top:10px;
+    padding:60px;
+    margin:50px;
+    
+}
+#contact::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 44px;
+    margin-left: 30px;
+}
+#contact-box form{
+    width: 40%;
+    
+}
+#contact-box label{
+    font-size: 5rem;
+    color:white;
+    font-family: 'Bree Serif',serif;
+}
+#contact-box input,
+#contact-box textarea
+{
+width: 100%;
+padding: 1rem;
+border-radius: 9px;
+font-size: 5rem;
+box-shadow: 4px 4px 20px  black;
+
+}
+#contact-box .btn-sg{
+    padding:10px 16px;
+    height: auto;
+    width:700px;
+    font-size :80px;
+    color:black;
+    // border-radius:20%;
+    font-family:bold;
+     border-color:white;
+
+    transition:width 2s height 2s;
+}
+
+
+
+
+
+    
+
+
+

@@ -1,0 +1,359 @@
+// *{
+//     margin: 0;
+//     padding:0;
+//     cursor: pointer;
+// }
+// $media-small:320px;
+// $media-big:1500px;
+// body{
+//      position: absolute;
+// @keyframes bkchange{
+//     from {background-color:lightgray ;}
+//     to {background-color: lightpink;}
+// }
+//     @media only screen and(max-width:$media-small)
+//     {
+//         width:100px;
+//         float:none;
+//     }
+//     @media screen and(min-width:$media-big)
+//     {
+//         float:right;
+//     }
+// }
+    
+
+// div{
+//     animation-name: bkchange;
+//     animation-duration: 2s;
+// }
+
+// .container{
+//     padding:50px;
+//     margin:50px;
+//     background-repeat:no-repeat ;
+//     background-size: cover;
+//     background-image:url(../images/fuji\ \(1\).jpg)
+//     filter:grayscale(70%);
+//     text-align: center;
+//     height:100vh;
+//     width:100vmax;
+
+
+// img{
+//     float:left;
+//     border:4px solid black;
+//     border-radius:50% ;
+    
+// }
+// }
+
+// .heading{
+//     display: flex;
+//     position:relative;
+//     justify-content: space-evenly;
+//     font-weight: bold;
+//     font-size:300px;
+//     color:rgb(27, 27, 102);
+//     text-shadow: red;
+    
+
+// }
+// .heading:hover{
+//     text-transform:2s ;
+//     color:rgb(187, 47, 70);
+//     display:flex;
+//     font-size:400px ;
+// }
+
+// .btn-ss{
+//     padding:10px 16px;
+//     height: auto;
+//     width:700px;
+//     font-size :80px;
+//     color:whitesmoke;
+//     border-radius:25%;
+//     font-family:bold;
+//     border-color:red;
+//     background-color:darkblue;
+//     transition:width 2s height 2s;
+// }
+
+// .btn-ss:hover{
+//     width:800px;
+//     height:auto;
+//     background-color:rgb(43, 180, 169);
+//     color:black;
+//      border-width:8px ;
+
+
+
+// }
+// .btn-ss:focus,
+// .btn-ss:active{
+//     color:white;
+// }
+// $primary-bg-color:rgb(214, 198, 198);
+// body{
+//     background-color: $primary-bg-color;
+// }
+// .division{
+//     margin:2%;
+//     padding: 2% 5%;
+//     .heading1{
+//         display:flex;
+//         position: relative;
+//         justify-content: space-evenly;
+//         font-weight: bold;
+//         font-size:200px;
+//         color:rgb(116, 20, 108);
+//         border:2px dashed black;
+//         border-radius: 50px;
+//         text-shadow: darkblue;
+
+//     }
+//     .heading1:hover{
+//         text-transform:2s ;
+//         color:red;
+//         display:flex;
+//         font-size:300px ;
+    
+
+//     }
+//     p{
+//         display:flex;
+//         position:relative;
+//         font-size: 100px;
+//         color:rgb(161, 13, 38);
+//         text-shadow: rgb(71, 99, 17) ;
+
+
+//     }
+//     div{
+//     img{
+//         float:right;
+//         position:static;
+//         z-index:1;
+//         transition: 2s;
+//     }
+// }
+//     img:hover{
+//         width:1000px;
+//         height:1000px;
+//         filter: contrast(90%)
+//      }
+//      a{
+//          font-size: 100px;
+//          font-weight: bold;
+//          color:blue;
+//      }
+
+// }
+// .division2{
+//      margin:2%;
+//     padding: 2% 5%;
+//     div{
+//         //gradient
+//         background-image: linear-gradient(left to right,rgb(214, 179, 179),lightpink);
+//     }
+//    h2{
+//     display:flex;
+//     position: relative;
+//     justify-content: space-evenly;
+//     font-weight: bold;
+//     font-size:200px;
+//     color:rgb(116, 20, 108);
+//     border: 2px dashed rgb(8, 7, 7);
+//     border-radius: 50px;
+
+// }
+// h2:hover{
+//     text-transform:2s ;
+//     color:rgb(187, 47, 70);
+//     display:flex;
+//     font-size:300px ;
+
+// }
+// p{
+//     display:flex;
+//     position:relative;
+//     font-size: 105px;
+//     color:rgb(114, 44, 55);
+// }
+// div{
+
+// img{
+//     float:right;
+// }
+// img:hover{
+//     width:1500px;
+//     height:1500px;
+//     filter: grayscale(50%)
+//  }
+
+// }
+//  p1{
+//     font-weight: bold;
+//     font-size: 120px;
+//     color:rgb(189, 20, 20);
+// }
+// p2{
+//     font-weight: bold;
+//     font-size: 120px;
+//     color:rgb(185, 14, 14);
+// }
+// }
+// .division3{
+//     margin:2%;
+//     padding: 2% 5%;
+// h2{ 
+//     display:flex;
+//     position: relative;
+//     justify-content: space-evenly;
+//     font-weight: bold;
+//     font-size:200px;
+//     color:rgb(116, 20, 108);
+//     border: 2px dashed rgb(8, 7, 7);
+//     border-radius: 50px;
+// }
+    
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* service section */
+.services-container{
+    top: 0;
+position: relative;
+display:flex;
+height: 350px;
+}
+.services-container .lorem{
+    margin: 20px 20px ;
+    /* padding: 15px 15px; */
+    font-size: 18px;
+}
+
+
+
+.division2{
+  
+    border: 2px solid red;
+    border-radius: 26px;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    display: flex;
+    display: block;
+    position: relative;
+    width: 200px;
+    height: 250px;
+    box-shadow: 6px 6px 15px 5px black;
+
+
+
+}
+.division2 .face{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 240px;
+    height: 100%;
+    transform-style: preserve-3d;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    transition: 2s ease-in-out;
+     /* background: white; */
+     backface-visibility: hidden;
+    transform: perspective(500px) rotateY(0deg);
+    
+
+}
+ .division2.face.front{
+    background: rgb(169, 167, 173);
+    display: flex;
+    width: 450px;
+    height:650px;
+    border-radius: 28px;
+    img{
+        text-transform: uppercase;
+        transform: perspective(500px) translateZ(50px);
+        height: 110px;
+        width: 340px;
+        display: block;
+        margin: auto;
+      
+    }
+    .head-line{
+          color:black;
+          text-align: center;
+          font-size:200px ;
+    }
+}
+ .division2:hover .face.front{
+    transform: perspective(500px) rotateY(180deg);
+}
+ .division2.face.back{
+    background: cyan;
+    color: white;
+    transform: perspective(500px) rotateY(180deg);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    width: 184px;
+    display: block;
+    border-radius: 28px;
+    head{
+        color:black;
+        font-size:400px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .btn-sm{
+        height:30px;
+        width:100px;
+    }
+    .btn-sn{
+        height:30px;
+        width:100px;
+    }
+
+    .btn-sp{
+        height:30px;
+        width:100px;
+    }
+
+}
+ .division2:hover .face.back{
+    transform: perspective(500px) rotateY(360deg);
+}
+.majnu .face img{
+    text-transform: uppercase;
+    transform: perspective(500px) translateZ(50px);
+    height: 110px;
+    width: 110px;
+    display: block;
+    margin: auto;
+}
+ .majnu .face.back p{
+    padding: 20px;
+    margin: 4px 4px;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: darkmagenta;
+}
+
